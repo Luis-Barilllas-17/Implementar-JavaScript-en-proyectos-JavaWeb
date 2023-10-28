@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+        }
+
+        #formulario {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .tablaProductos {
+            flex: 2;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .tablaProductos h1 {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        #mensajeDiv {
+            margin-top: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        input, .button {
+            display: block;
+            margin: 10px 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
